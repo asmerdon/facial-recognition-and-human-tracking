@@ -1,5 +1,9 @@
-This repository contains the code for two models: a facial recognition model, and a human-tracking model.
+###Overview:
+This repository contains the code for two models: a facial recognition model and a human tracking model.
 
-Facial recognition model: this model takes in a selfie, and a document (passport, ID, etc...) and returns a similarity score to detect whether a the faces in both images are the same. 
+####Facial Recognition Model:
+This model takes in a selfie and a document image (e.g. passport, ID card, etc.) and returns a similarity score to determine whether the faces in both images belong to the same person.
 
-Human tracking model: this model takes video input and detects any humans in the video, outlines them, and blurs them (this last part was done for an artistic project, however the core tracking features work independantly). 
+####Human Tracking Model:
+This model takes video input, detects any humans in the footage, outlines them, and applies a blur effect. The blurring was added for an artistic project; however, the core tracking features function independently.
+

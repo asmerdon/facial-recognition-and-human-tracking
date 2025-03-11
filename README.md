@@ -9,19 +9,16 @@ This model takes video input, detects any humans in the footage, outlines them, 
 
 #### Requirements:
 To run the facial recognition model, the following dependancies are required:
-/*:
   - cv2
   - numpy
   - face_recognition
   - matplotlib
   - deepface
   - 
-*/
 
 To run the human tracking model, the following dependancies are required:
-/*:
   - cv2
   - numpy
   - ultralytics (import YOLO)
   - moviepy.editor (import VideoFileClip)
-*/
+

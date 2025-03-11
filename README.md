@@ -6,3 +6,22 @@ This model takes in a selfie and a document image (e.g. passport, ID card, etc.)
 
 #### Human Tracking Model
 This model takes video input, detects any humans in the footage, outlines them, and applies a blur effect. The blurring was added for an artistic project; however, the core tracking features function independently.
+
+#### Requirements:
+To run the facial recognition model, the following dependancies are required:
+/*:
+  - cv2
+  - numpy
+  - face_recognition
+  - matplotlib
+  - deepface
+  - 
+*/
+
+To run the human tracking model, the following dependancies are required:
+/*:
+  - cv2
+  - numpy
+  - ultralytics (import YOLO)
+  - moviepy.editor (import VideoFileClip)
+*/
